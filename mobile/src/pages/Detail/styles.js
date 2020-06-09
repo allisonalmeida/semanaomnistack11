@@ -74,5 +74,30 @@ export default StyleSheet.create({
     color: '#FFF',
     fontSize: 15,
     fontWeight: 'bold',
-  }
+  },
+
+  sidetosideProperty: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'baseline',
+  },
+
+  sidetosideValue: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'baseline',
+  },
+
+  sidetosidePropertyText: {
+    fontSize: 14,
+    color: '#41414d',
+    fontWeight: 'bold',
+    marginTop: 5,
+  },
+
+  sidetosideValueText: {
+    marginTop: 8,
+    fontSize: 15,
+    color: '#737380',
+  },
 });
